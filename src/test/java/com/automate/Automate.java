@@ -28,7 +28,7 @@ public class Automate {
 		int input_month=12;
 		String input_year="2025";
 		
-		
+		System.out.print(input_year);
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
 		driver.manage().window().maximize();
