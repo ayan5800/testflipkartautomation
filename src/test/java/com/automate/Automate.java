@@ -29,6 +29,9 @@ public class Automate {
 		String input_year="2025";
 		
 		System.out.print(input_year);
+		System.out.print("==============Message end of this message===============");
+		System.out.print("==============Message end of this message===============");
+		System.out.print("==============Message end of this message===============");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.makemytrip.com/");
 		driver.manage().window().maximize();
