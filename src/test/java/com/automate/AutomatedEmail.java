@@ -49,7 +49,7 @@ public class AutomatedEmail {
 		Message message = mailosaur.messages().get(params, criteria);
 		System.out.println("==============Message Body===============");
 		System.out.println(message.subject());
-		System.out.print("==============Message end===============");
+		System.out.print("==============Message end of this message===============");
 	    /*
         Calendar calendar = Calendar.getInstance();
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
